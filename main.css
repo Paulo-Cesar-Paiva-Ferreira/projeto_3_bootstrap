@@ -1,0 +1,74 @@
+body{
+    font-family: 'Roboto', sans-serif; 
+}
+
+
+.navbar {
+    background-color: #0b89af;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #0b89af;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar-toggler {
+    background-color: #f7ece8;
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+}
+
+.section-title span {
+    color:#0b89af;
+}
+
+#sobre-o-hotel,
+#cardapio {
+    background-color: #e7f0f0;
+}
+
+.text-colored {
+    color:#0b89af;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #0b89af;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #0b89af;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width:767px) {
+    .corousel-item img {
+        height: 280px;
+    }
+}
+
+.corousel-item  img  {
+    width: 100px;
+}
